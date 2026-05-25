@@ -57,3 +57,8 @@ uv run apply_patches.py
 
 Magic 视界独立安装包被打包进荣耀电脑管家的 YOYO 安装包里，是一个标准 NSIS 打包，机型校验逻辑和荣耀电脑管家配置校验逻辑被放置在 `Launcher.exe` 和 `Util.dll` 中。
 
+Patch 原理是：
+
+1. 荣耀 Magic 视界独立安装包，包含在荣耀电脑管家里，是标准 NSIS 打包。
+2. 机型校验逻辑在 `Launcher.exe` 和 `Util.dll` 这两个文件里。
+3. `[NSIS].nsi` 是 NSIS 打包脚本文件。
