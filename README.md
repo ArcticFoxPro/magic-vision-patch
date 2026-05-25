@@ -55,5 +55,5 @@ uv run apply_patches.py
 
 ## 原理说明
 
-Magic 视界独立安装包被打包进荣耀电脑管家里，是一个标准 NSIS 打包，机型校验逻辑和荣耀电脑管家配置校验逻辑被放置在 `Launcher.exe` 和 `Util.dll` 中。
+Magic 视界独立安装包被打包进荣耀电脑管家的 YOYO 安装包里，是一个标准 NSIS 打包，机型校验逻辑和荣耀电脑管家配置校验逻辑被放置在 `Launcher.exe` 和 `Util.dll` 中。
 
