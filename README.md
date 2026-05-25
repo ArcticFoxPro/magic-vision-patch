@@ -11,7 +11,7 @@ Magic 视界的 Patch 脚本文件和 NSIS.nsi 脚本文件。
 
 请在本地计算机安装 NSIS：https://nsis.sourceforge.io/Download
 
-如果你使用 Chocolatey：
+如果你使用 [Chocolatey](https://chocolatey.org/)：
 
 ```bash
 choco install nsis
@@ -25,7 +25,7 @@ choco install nsis
 pip install pefile
 ```
 
-如果你使用 Astral uv：
+如果你使用 [Astral uv](https://docs.astral.sh/uv/)：
 
 ```bash
 uv add pefile
