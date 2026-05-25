@@ -30,7 +30,19 @@ uv add pefile
 
 ## Patch 与打包
 
-执行 `apply_patches.py` 文件，将生成的 `Launcher.exe.patched` 和 `Util.dll.patched` 文件去掉 `.patched` 扩展名，替换安装包原有 `Launcher.exe` 和 `Util.dll` 文件。
+执行 `apply_patches.py` 文件：
+
+```bash
+py apply_patches.py
+```
+
+如果你使用 Astran uv：
+
+```bash
+uv run apply_patches.py
+```
+
+将生成的 `Launcher.exe.patched` 和 `Util.dll.patched` 文件去掉 `.patched` 扩展名，替换安装包原有 `Launcher.exe` 和 `Util.dll` 文件。
 
 最后，在 Magic 视界文件夹执行以下命令以打包 NSIS 安装包（请注意把 `path\to\` 更改为 NSIS 实际地址）：
 
