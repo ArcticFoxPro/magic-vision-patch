@@ -1,2 +1,40 @@
 # Magic Vision Patch
-Magic 视界的 Patch 脚本文件和 NSIS.nsi 脚本文件
+
+Magic 视界的 Patch 脚本文件和 NSIS.nsi 脚本文件。
+
+适用于 Magic 视界 10.0.0.37(C233HONOR)。
+
+## 第一次使用？
+
+请在本地计算机安装 NSIS：https://nsis.sourceforge.io/Download
+
+如果你使用 Chocolatey：
+
+```bash
+choco install nsis
+```
+
+然后，将 `[nsis].nsi` 文件、`files_section.nsh` 文件和 `apply_patches.py` 文件放进解压后的 Magic 视界文件夹内。
+
+在 Magic 视界文件夹内安装以下 PyPI 依赖（计算机需要 Python 环境）：
+
+```bash
+pip install pefile
+```
+
+如果你使用 Astral uv：
+
+```bash
+uv add pefile
+```
+
+## Patch 与打包
+
+执行 `apply_patches.py` 文件，将生成的 `Launcher.exe.patched` 和 `Util.dll.patched` 文件去掉 `.patched` 扩展名，替换安装包原有 `Launcher.exe` 和 `Util.dll` 文件。
+
+最后，在 Magic 视界文件夹执行以下命令以打包 NSIS 安装包（请注意把 `path\to\` 更改为 NSIS 实际地址）：
+
+```bash
+& "path\to\NSIS\makensis.exe" "[NSIS].nsi"
+```
+
