@@ -1,6 +1,6 @@
 # Magic Vision Patch
 
-Magic 视界的 Patch 脚本文件和 NSIS.nsi 脚本文件。
+对 Magic 视界的 Patch 脚本文件和 NSIS.nsi 脚本文件。
 
 适用于 Magic 视界 10.0.0.37(C233HONOR)。
 
@@ -56,5 +56,5 @@ uv run apply_patches.py
 ## 原理说明
 
 1. 荣耀 Magic 视界独立安装包，包含在荣耀电脑管家里，是标准 NSIS 打包。
-2. 机型校验逻辑在 `Launcher.exe` 和 `Util.dll` 这两个文件里。
+2. 机型校验逻辑在 `Launcher.exe` 和 `Util.dll` 这两个文件里。Patch 脚本会尝试使相关校验 Point always True。
 3. `[NSIS].nsi` 是 NSIS 打包脚本文件。
