@@ -15,7 +15,7 @@
 ; along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 Unicode true
-SetCompressor zlib
+SetCompressor /SOLID lzma
 SetCompressorDictSize 64
 RequestExecutionLevel admin
 ShowInstDetails show
