@@ -69,6 +69,8 @@ py remove_signature.py
 uv run remove_signature.py
 ```
 
+将生成的 `Launcher.exe.unsigned` 和 `Util.dll.unsigned` 文件去掉 `.unsigned` 扩展名，替换安装包原有 `Launcher.exe` 和 `Util.dll` 文件。
+
 ## 原理说明
 
 1. 荣耀 Magic 视界独立安装包，包含在荣耀电脑管家里，是标准 NSIS 打包。
