@@ -1,11 +1,29 @@
+"""
+Magic Vision Patch
+Copyright (C) 2026 ArcticFoxPro
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+"""
+
 import os
 import pefile
 
 def remove_pe_signature(input_path, output_path=None):
     """
-    剥离PE文件的数字签名
+    剥离 PE 文件的数字签名
     
-    :param input_path: 输入PE文件路径
+    :param input_path: 输入 PE 文件路径
     :param output_path: 输出文件路径，默认为原文件加 .unsigned 后缀
     """
     if not os.path.exists(input_path):
@@ -41,7 +59,7 @@ def remove_pe_signature(input_path, output_path=None):
         return True
         
     except pefile.PEFormatError:
-        print(f"错误：{input_path} 不是有效的PE文件")
+        print(f"错误：{input_path} 不是有效的 PE 文件")
         return False
     except Exception as e:
         print(f"处理 {input_path} 时发生错误: {str(e)}")
