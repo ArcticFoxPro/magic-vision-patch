@@ -53,6 +53,22 @@ uv run apply_patches.py
 & "path\to\NSIS\makensis.exe" "[NSIS].nsi"
 ```
 
+## 剥离 Patch 文件数字签名
+
+考虑到 Patch 后文件无法对上原有数字签名，可能导致一些检测环境的安全软件报告异常，因此这里提供了 `remove_signature.py` Python 脚本以剥离 `Launcher.exe` 和 `Util.dll` 文件的数字签名。
+
+在 Magic 视界根目录执行 `remove_signature.py` 文件：
+
+```bash
+py remove_signature.py
+```
+
+如果你使用 Astral uv：
+
+```bash
+uv run remove_signature.py
+```
+
 ## 原理说明
 
 1. 荣耀 Magic 视界独立安装包，包含在荣耀电脑管家里，是标准 NSIS 打包。
