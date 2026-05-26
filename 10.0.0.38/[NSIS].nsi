@@ -22,7 +22,7 @@ ShowInstDetails show
 InstallDir "$PROGRAMFILES64\HONOR\MagicAnimation"
 InstallDirRegKey HKLM "SOFTWARE\HONOR\MagicAnimation" "InstallLocation"
 Name "Magic Vision"
-OutFile "MagicAnimation_Setup_10.0.0.37.exe"
+OutFile "MagicAnimation_Setup_10.0.0.38.exe"
 BrandingText "HONOR Magic Vision Setup"
 
 !include "MUI2.nsh"
@@ -33,9 +33,9 @@ BrandingText "HONOR Magic Vision Setup"
 Var StartAfterInstall
 Var InstallMode
 
-!define PRODUCT_VERSION "10.0.0.37(C233HONOR)"
-!define PRODUCT_VERSION_DISPLAY "10.0.0.37"
-!define PRODUCT_PKNAME "MagicAnimation_Setup_10.0.0.37(C233HONOR)"
+!define PRODUCT_VERSION "10.0.0.38(C233HONORSP1)"
+!define PRODUCT_VERSION_DISPLAY "10.0.0.38"
+!define PRODUCT_PKNAME "MagicAnimation_Setup_10.0.0.38(C233HONORSP1)"
 
 !define MUI_ABORTWARNING
 !define MUI_ICON "${NSISDIR}\Contrib\Graphics\Icons\modern-install.ico"
