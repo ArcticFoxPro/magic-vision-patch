@@ -55,7 +55,7 @@ uv run apply_patches.py
 
 ## 剥离 Patch 文件数字签名
 
-考虑到 Patch 后文件无法对上原有数字签名，可能导致一些检测环境的安全软件报告异常，因此这里提供了 `remove_signature.py` Python 脚本以剥离 `Launcher.exe` 和 `Util.dll` 文件的数字签名。
+考虑到 Patch 后文件无法匹配原有数字签名，可能导致一些检测环境的安全软件报告异常，因此这里提供了 `remove_signature.py` Python 脚本以剥离 `Launcher.exe` 和 `Util.dll` 文件的数字签名。
 
 在 Magic 视界根目录执行 `remove_signature.py` 文件：
 
