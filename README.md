@@ -4,6 +4,9 @@
 
 适用于 Magic 视界 10.0.0.37 和 10.0.0.38 版本。
 
+> [!note]
+> 荣耀 Magic 视界的 `magictaskbar-ui` 部分基于 [Seelen UI](https://seelen.io/zh-CN) 开源项目衍生创作。Seelen UI 是一个 AGPL v3 协议开源软件。请在支持本 Patch 项目的同时，支持荣耀履行 Magic 视界 `magictaskbar-ui` 开源义务：https://github.com/taskbarUI/magictaskbar-ui
+
 > [!WARNING]
 > 本开源项目提供的所有服务及内容均旨在促进合法的学习交流活动，严禁用户将其用于任何非法、违规或侵犯他人权益的目的。敬请所有用户严格遵守相关法律法规，在使用本开源项目的过程中秉持合法、正当与诚信原则，切勿涉足任何违法用途。如有违反，相关法律责任将由行为人自负。
 
