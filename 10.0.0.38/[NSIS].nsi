@@ -92,13 +92,6 @@ Function CreateDesktopShortcut
   Delete "$DESKTOP\AI Desktop.lnk"
   Delete "$DESKTOP\AI 桌面.lnk"
 
-  ; 为当前用户创建
-  ${If} $LANGUAGE == 2052
-    CreateShortCut "$DESKTOP\Magic 视界.lnk" "$INSTDIR\Launcher.exe" "start" "$INSTDIR\res\icons\main.ico" 0 "" "" "$INSTDIR"
-  ${Else}
-    CreateShortCut "$DESKTOP\Magic Vision.lnk" "$INSTDIR\Launcher.exe" "start" "$INSTDIR\res\icons\main.ico" 0 "" "" "$INSTDIR"
-  ${EndIf}
-
   ; 为所有用户创建
   SetShellVarContext all
   ${If} $LANGUAGE == 2052
