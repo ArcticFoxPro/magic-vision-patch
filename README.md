@@ -1,4 +1,4 @@
-# Magic Vision Patch
+# Magic Patch
 
 对 Magic 视界的 Patch 脚本文件和 NSIS.nsi 脚本文件，适用于 Magic 视界 10.0.0.37 和 10.0.0.38 版本。
 
