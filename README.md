@@ -1,8 +1,8 @@
 # Magic Vision Patch
 
-对 Magic 视界的 Patch 脚本文件和 NSIS.nsi 脚本文件。
+对 Magic 视界的 Patch 脚本文件和 NSIS.nsi 脚本文件，适用于 Magic 视界 10.0.0.37 和 10.0.0.38 版本。
 
-适用于 Magic 视界 10.0.0.37 和 10.0.0.38 版本。
+![](https://raw.githubusercontent.com/ArcticFoxPro/magic-vision-patch/main/magic-vision-patch.png)
 
 > [!note]
 > 荣耀 Magic 视界的 `magictaskbar-ui` 部分基于 [Seelen UI](https://seelen.io/zh-CN) 开源项目衍生创作。Seelen UI 是一个 AGPL v3 协议开源软件。请在支持本 Patch 项目的同时，支持荣耀终端股份有限公司履行 Magic 视界 `magictaskbar-ui` 开源义务：https://github.com/taskbarUI/magictaskbar-ui
