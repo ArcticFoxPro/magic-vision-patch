@@ -10,6 +10,20 @@
 > [!WARNING]
 > 本开源项目提供的所有服务及内容均旨在促进合法的学习交流活动，严禁用户将其用于任何非法、违规或侵犯他人权益的目的。敬请所有用户严格遵守相关法律法规，在使用本开源项目的过程中秉持合法、正当与诚信原则，切勿涉足任何违法用途。如有违反，相关法律责任将由行为人自负。
 
+## 如果你尚未安装 Python……
+
+这里以 Windows 为例。首先打开 Windows 终端，执行以下命令以启用 [`winget configure`](https://learn.microsoft.com/en-us/windows/package-manager/winget/configure)：
+
+```bash
+winget configure --enable
+```
+
+然后，执行以下命令以按照 Python 环境（Python 3.13 + Astral uv）：
+
+```bash
+winget configure -f .\Workloads\python\configuration.winget --accept-configuration-agreements --disable-interactivity
+```
+
 ## 第一次使用？
 
 请在本地计算机安装 NSIS：https://nsis.sourceforge.io/Download
